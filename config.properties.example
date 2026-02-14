@@ -1,0 +1,24 @@
+# Configuration Template - Copy to config.properties and fill in your API keys
+# DO NOT commit config.properties file with real keys to version control!
+
+# GLM Model Configuration
+glm.model=glm-4.7
+glm.fallback_model=glm-4.7
+glm.temperature=0.5
+glm.streaming=false
+
+# API Keys (fill in your actual keys)
+zhipuai.api_key=YOUR_ZHIPUAI_API_KEY_HERE
+gnews.api_key=YOUR_GNEWS_API_KEY_HERE
+tavily.api_key=YOUR_TAVILY_API_KEY_HERE
+deepseek.api_key=YOUR_DEEPSEEK_API_KEY_HERE
+newsapi.api_key=YOUR_NEWSAPI_API_KEY_HERE
+
+# Optional: LangSmith Integration
+langsmith.api_key=YOUR_LANGSMITH_API_KEY_HERE
+langsmith.project=YOUR_LANGSMITH_PROJECT_NAME
+
+# Optional: Environment Settings
+memory.dir=.memories
+memory.enabled=true
+test.verbose=false

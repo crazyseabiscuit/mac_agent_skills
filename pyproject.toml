@@ -1,0 +1,11 @@
+[project]
+name = "mac-agent-skills"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "httpx-sse>=0.4.3",
+    "langchain-community>=0.4.1",
+    "pyjwt>=2.11.0",
+]
